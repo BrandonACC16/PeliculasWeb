@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema World - Tu Portal de Películas</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+    <link href="https://fonts.cdnfonts.com/css/lovers-quarrel" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            margin-bottom: 0;
+            background-color: #2c3e50;
+            border: none;
+        }
+        .navbar-brand {
+            color: white !important;
+            font-weight: bold;
+        }
+        .nav > li > a {
+            color: #ecf0f1 !important;
+        }
+        .jumbotron {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            margin-bottom: 0;
+        }
+        .feature-box {
+            padding: 40px 20px;
+            text-align: center;
+            background: white;
+            border-radius: 5px;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px 0;
+            margin-top: 40px;
+        }
+        .btn-primary {
+            background-color: #e74c3c;
+            border-color: #c0392b;
+        }
+        .btn-primary:hover {
+            background-color: #c0392b;
+            border-color: #a93226;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Cinema World</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="Peliculas.html">Catálogo de Películas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron Principal -->
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1 style="font-family: 'Lovers Quarrel', sans-serif; font-size: 72px;">Bienvenidos a Cinema World</h1>
+            <p class="lead">Descubre el fascinante mundo del cine con nuestra selección de películas</p>
+            <a href="Peliculas.html" class="btn btn-primary btn-lg">Ver Catálogo</a>
+        </div>
+    </div>
+
+    <!-- Sección de Características -->
+    <div class="container" style="margin-top: 40px;">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <span class="glyphicon glyphicon-film" style="font-size: 40px; color: #e74c3c;"></span>
+                    <h3>Gran Catálogo</h3>
+                    <p>Explora nuestra extensa colección de películas de todos los géneros y épocas.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <span class="glyphicon glyphicon-star" style="font-size: 40px; color: #e74c3c;"></span>
+                    <h3>Últimos Estrenos</h3>
+                    <p>Mantente al día con los últimos lanzamientos del mundo cinematográfico.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-box">
+                    <span class="glyphicon glyphicon-info-sign" style="font-size: 40px; color: #e74c3c;"></span>
+                    <h3>Información Detallada</h3>
+                    <p>Accede a información completa sobre cada película en nuestro catálogo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Cinema World</h4>
+                    <p>Tu portal favorito de información cinematográfica</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <p>&copy; 2025 Cinema World. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
